@@ -1,6 +1,6 @@
 {
-    "name": "romegadigital/IE11Compatibility",
-    "description": "Adds IE11 support for Nova.",
+    "name": "romegadigital/ie11compatibility ",
+    "description": "Adds IE11 support for Laravel Nova.",
     "keywords": [
         "laravel",
         "nova"
