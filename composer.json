@@ -1,9 +1,19 @@
 {
-    "name": "romegadigital/ie11compatibility ",
+    "name": "romegadigital/ie11compatibility",
     "description": "Adds IE11 support for Laravel Nova.",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "ie11"
+    ],
+    "homepage": "https://github.com/romegadigital/IE11Compatibility",
+    "authors": [
+        {
+            "name": "Braden Keith",
+            "email": "bkeith@romegadigital.com",
+            "homepage": "http://romegadigital.com",
+            "role": "Developer"
+        }
     ],
     "license": "MIT",
     "require": {
