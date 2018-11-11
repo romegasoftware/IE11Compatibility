@@ -29,7 +29,7 @@ Additionally, some common Tailwind CSS styles are included. This is still a WIP 
 
 ## Installation
 
-`composer require romegadigital/IE11Compatibility`
+`composer require romegadigital/ie11compatibility`
 
 The following command will override the Nova published `user.blade.php` with an IE11 compatible version. Any customizations to `user.blade.php` will be lost
 
