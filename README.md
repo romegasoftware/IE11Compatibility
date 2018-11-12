@@ -35,6 +35,10 @@ The following command will override the Nova published `user.blade.php` with an 
 
 `php artisan vendor:publish --tag=nova-ie11-views --force`
 
+The following command will override the Nova published `/public/vendor/nova/app.css` with an IE11 compatible version. 
+
+`php artisan vendor:publish --tag=nova-ie11-styles --force`
+
 ## Extending
 
 `resources/views/vendor/nova/partials/user.blade.php` can be updated with whatever you need.
