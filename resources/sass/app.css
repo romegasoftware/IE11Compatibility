@@ -846,6 +846,16 @@ textarea.form-input:read-only,
   fill: var(--primary);
 }
 
-#04-user {
+[id="04-user"] {
   fill: var(--90);
+}
+
+/* Loading Indicator */
+.flex.items-center.justify-center.z-50
+  > svg.text-60.mx-auto.block {
+  margin: 0;
+}
+
+.min-w-site {
+  min-width: 0px;
 }
