@@ -17,6 +17,7 @@
         "tailwindcss": "^0.7.2"
     },
     "dependencies": {
+        "css-vars-ponyfill": "^2.1.2",
         "es6-promise": "^4.2.5",
         "vue": "^2.5.0"
     }
