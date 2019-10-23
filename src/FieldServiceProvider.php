@@ -15,9 +15,9 @@ class FieldServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-//        $this->publishes([
-//            __DIR__.'/../resources/views/partials' => resource_path('views/vendor/nova/partials'),
-//        ], 'nova-ie11-views');
+        $this->publishes([
+            __DIR__.'/../resources/views/partials' => resource_path('views/vendor/nova/partials'),
+        ], 'nova-ie11-views');
 //
 //        $this->publishes([
 //            __DIR__.'/../dist/css' => public_path('vendor/nova'),

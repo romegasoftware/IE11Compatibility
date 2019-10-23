@@ -60,3 +60,9 @@
 .min-w-site {
     min-width: 0px;
 }
+
+/* user-dropdown */
+_:-ms-lang(x), [dusk="dashboard-main"] + div > div:nth-child(2) {
+    right: 20px;
+    top: 50px;
+}
