@@ -18,10 +18,6 @@ class FieldServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/../resources/views/partials' => resource_path('views/vendor/nova/partials'),
         ], 'nova-ie11-views');
-//
-//        $this->publishes([
-//            __DIR__.'/../dist/css' => public_path('vendor/nova'),
-//        ], 'nova-ie11-styles');
 
         Nova::serving(function (ServingNova $event) {
             Nova::script('IE11Compatibility', __DIR__.'/../dist/js/nova.js');

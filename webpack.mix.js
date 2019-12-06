@@ -6,4 +6,4 @@ mix.setPublicPath('dist')
    .postCss('resources/sass/app.css', 'css', [
        tailwindcss('./tailwind.js'),
        require('postcss-css-variables')()
-   ]);   
+   ]);
