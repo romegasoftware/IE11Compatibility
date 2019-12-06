@@ -1,5 +1,5 @@
 # Nova IE11Compatibility
-Adds IE11 support to [Laravel Nova](https://nova.laravel.com). Latest CSS build based on Nova 1.3.1.
+Adds IE11 support to [Laravel Nova](https://nova.laravel.com). Latest CSS build based on Nova 2.8.0.
 
 ## Installation
 
