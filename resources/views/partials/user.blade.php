@@ -3,7 +3,7 @@
         <img src="https://secure.gravatar.com/avatar/{{ md5(auth()->user()->email) }}?size=512" class="rounded-full w-8 h-8 mr-3"/>
 
         <span class="text-90">
-            {{ $user->name ?? $user->email ?? __('Nova User')Z }}
+            {{ $user->name ?? $user->email ?? __('Nova User') }}
         </span>
     </template>
 </user-trigger>
